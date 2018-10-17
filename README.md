@@ -1,9 +1,9 @@
 Data for [endorphin-studio/browser-detector](https://github.com/endorphin-studio/browser-detector)
 
 ## Code Status
-[![Latest Stable Version](https://poser.pugx.org/endorphin-studio/browser-detector-data/v/stable)](https://packagist.org/packages/endorphin-studio/browser-detector)
-[![Total Downloads](https://poser.pugx.org/endorphin-studio/browser-detector-data/downloads)](https://packagist.org/packages/endorphin-studio/browser-detector)
-[![License](https://poser.pugx.org/endorphin-studio/browser-detector-data/license)](https://packagist.org/packages/endorphin-studio/browser-detector)
+[![Latest Stable Version](https://poser.pugx.org/endorphin-studio/browser-detector-data/v/stable)](https://packagist.org/packages/endorphin-studio/browser-detector-data)
+[![Total Downloads](https://poser.pugx.org/endorphin-studio/browser-detector-data/downloads)](https://packagist.org/packages/endorphin-studio/browser-detector-data)
+[![License](https://poser.pugx.org/endorphin-studio/browser-detector-data/license)](https://packagist.org/packages/endorphin-studio/browser-detector-data)
 
 
 [![Build Status](https://travis-ci.org/endorphin-studio/browser-detector-data.svg?branch=master)](https://travis-ci.org/endorphin-studio/browser-detector-data)
