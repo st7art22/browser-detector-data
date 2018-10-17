@@ -17,9 +17,7 @@
   },
   "autoload": {
     "psr-4": {
-      "EndorphinStudio\\Detector\\Data":  "src/Data",
-      "EndorphinStudio\\Detector\\Storage":  "src/Storage",
-      "EndorphinStudio\\Detector\\Exception":  "src/Exception"
+      "EndorphinStudio\\Detector":  "src"
     }
   }
 }
