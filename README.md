@@ -4,8 +4,6 @@ Data for [endorphin-studio/browser-detector](https://github.com/endorphin-studio
 [![Latest Stable Version](https://poser.pugx.org/endorphin-studio/browser-detector-data/v/stable)](https://packagist.org/packages/endorphin-studio/browser-detector-data)
 [![Total Downloads](https://poser.pugx.org/endorphin-studio/browser-detector-data/downloads)](https://packagist.org/packages/endorphin-studio/browser-detector-data)
 [![License](https://poser.pugx.org/endorphin-studio/browser-detector-data/license)](https://packagist.org/packages/endorphin-studio/browser-detector-data)
-
-
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/endorphin-studio/browser-detector-data/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/endorphin-studio/browser-detector-data/?branch=master)
 
 ## About
