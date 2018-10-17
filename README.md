@@ -6,7 +6,7 @@ Data for [endorphin-studio/browser-detector](https://github.com/endorphin-studio
 [![License](https://poser.pugx.org/endorphin-studio/browser-detector-data/license)](https://packagist.org/packages/endorphin-studio/browser-detector-data)
 
 
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/endorphin-studio/browser-detector-data/badges/quality-score.png?b=4.0)](https://scrutinizer-ci.com/g/endorphin-studio/browser-detector-data/?branch=master)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/endorphin-studio/browser-detector-data/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/endorphin-studio/browser-detector-data/?branch=master)
 
 ## About
 	Author: Serhii Nekhaienko <sergey.nekhaenko@gmail.com>
