@@ -1,10 +1,18 @@
-badRobots:
-    - DotBot
-    - Grapeshot
-    - Seznam
-    - MetaURI
-    - PaperLiBot
-    - Genieo
-    - PR-CY-RU
-    - ADmantX
-    - betaBot
+########################################################################
+# @author Serhii Nekhaienko <sergey.nekhaenko@gmail.com>
+# @license GPL
+# @copyright Serhii Nekhaienko &copy 2019
+# @version 1.0.1
+# @project endorphin-studio/browser-detector-data
+########################################################################
+robot:
+    badRobots:
+        - DotBot
+        - Grapeshot
+        - Seznam
+        - MetaURI
+        - PaperLiBot
+        - Genieo
+        - PR-CY-RU
+        - ADmantX
+        - betaBot
