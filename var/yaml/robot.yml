@@ -33,6 +33,17 @@ robot:
         Nazaries Information Technologies: "http://www.nazaries.com/"
         DownNotifier.com: "https://www.downnotifier.com/"
         SEOmoz Inc.: "https://moz.com/"
+        Grapeshot: "http://www.grapeshot.co.uk/crawler.php"
+        Seznam: "http://napoveda.seznam.cz/en/seznambot-intro/"
+        metauri: "http://metauri.com"
+        paper: "http://support.paper.li/entries/20023257-what-is-paper-li"
+        Genieo: "http://www.genieo.com/webfilter.html"
+        Mirafox: "http://mirafox.com"
+    	Clearspring Technologies: "http://clearspring.com"
+    	ADmantX Inc.: "http://admantx.com"
+    	The Internet Archive: "http://archive.org"
+    	Artmixx: "http://artmixx.com"
+        BrandProtect Inc.: "https://www.brandprotect.com"
     types:
         Search Engine:
             Google Inc.:
@@ -99,6 +110,7 @@ robot:
                 WASALive Bot: "WASALive-Bot"
             Microsoft Corp.:
                 .NET Framework CLR: "MS Web Services"
+                Adidxbot: "adidxbot"
             007AC9.net:
                 007ac9 Crawler: "007ac9 Crawler"
             80legs.com:
@@ -124,3 +136,27 @@ robot:
                 ScoutJet: "ScoutJet"
             SEOmoz Inc.:
                 DotBot: "(DotBot|dotbot)"
+            Grapeshot:
+                Grapeshot: "GrapeshotCrawler"
+            Seznam:
+                Seznam: "SeznamBot"
+            metauri:
+                MetaURI: "MetaURI"
+            paper:
+                PaperLiBot: "PaperLiBot"
+            Genieo:
+                Genieo: "Genieo"
+            Mirafox:
+                PR-CY-RU: "a.pr-cy.ru"
+            Clearspring Technologies:
+                AddThis: "AddThis.com"
+            ADmantX Inc.:
+                ADmantX: "ADmantX"
+            The Internet Archive:
+                ArchiveOrg: "archive.org_bot"
+            Artmixx:
+                Artmixx: "http://artmixx.com/"
+            BrandProtect Inc.:
+                BDFetch: "BDFetch"
+            betaBot:
+                betaBot: "betaBot"

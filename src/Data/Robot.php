@@ -47,6 +47,24 @@ class Robot extends AbstractData
     }
 
     /**
+     * Get bad flag
+     * @return bool
+     */
+    public function isBad(): bool
+    {
+        return $this->isBad;
+    }
+
+    /**
+     * Set Bad flag
+     * @param bool $isBad
+     */
+    public function setIsBad(bool $isBad)
+    {
+        $this->isBad = $isBad;
+    }
+
+    /**
      * Set robot homepage
      * @param string $homepage
      */
@@ -57,4 +75,9 @@ class Robot extends AbstractData
 
     /** @var string Robot homepage */
     protected $homepage;
+
+    /**
+     * @var bool Flag which say us is this bot is bad
+     */
+    protected $isBad = false;
 }
