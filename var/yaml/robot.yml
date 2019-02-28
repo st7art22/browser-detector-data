@@ -156,6 +156,6 @@ robot:
             The Internet Archive:
                 ArchiveOrg: "archive.org_bot"
             Artmixx:
-                Artmixx: "http://artmixx.com/"
+                Artmixx: "artmixx"
             BrandProtect Inc.:
                 BDFetch: "BDFetch"
