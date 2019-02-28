@@ -32,7 +32,12 @@ class YamlStorage extends FileStorage implements StorageInterface
             $config = [];
             foreach ($files as $file) {
                 $fileConfig = $yamlParser->parseFile($file);
-                $config = \array_merge($config, $fileConfig);
+                foreach ($fileConfig as $key => $data) {
+                    if(!\array_key_exists($key, $config)) {
+                        $config[$key] = [];
+                    }
+                    $config[$key] = \array_merge($config[$key], $data);
+                }
             }
             $this->config = $config;
         }
