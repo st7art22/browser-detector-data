@@ -39,10 +39,10 @@ robot:
         paper: "http://support.paper.li/entries/20023257-what-is-paper-li"
         Genieo: "http://www.genieo.com/webfilter.html"
         Mirafox: "http://mirafox.com"
-    	Clearspring Technologies: "http://clearspring.com"
-    	ADmantX Inc.: "http://admantx.com"
-    	The Internet Archive: "http://archive.org"
-    	Artmixx: "http://artmixx.com"
+        Clearspring Technologies: "http://clearspring.com"
+        ADmantX Inc.: "http://admantx.com"
+        The Internet Archive: "http://archive.org"
+        Artmixx: "http://artmixx.com"
         BrandProtect Inc.: "https://www.brandprotect.com"
     types:
         Search Engine:
