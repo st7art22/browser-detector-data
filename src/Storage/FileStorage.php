@@ -50,7 +50,7 @@ class FileStorage extends AbstractStorage implements StorageInterface
     private function resolveFile(\DirectoryIterator $file, array &$files)
     {
         if ($file->isDir() && !$file->isDot()) {
-            $files = Tools::resolvePath($files, $this->getFileNames());
+            $files = Tools::resolvePath($files, $this->getFileNames($file->getRealPath()));
         }
 
         if ($file->isFile() && !$file->isLink() && $file->isReadable()) {
