@@ -31,24 +31,38 @@ class YamlStorage extends FileStorage implements StorageInterface
             $files = $this->getFileNames();
             $this->config = [];
             foreach ($files as $file) {
-                $this->resolveData($yamlParser->parseFile($file), $this->config);
+                $this->resolveData($yamlParser->parseFile($file));
             }
         }
         return $this->config;
     }
 
-    public function resolveData($data, &$array): array
+    /**
+     * Resolve data
+     * @param $data
+     * @param string $container
+     * @return array
+     */
+    public function resolveData($data, &$container = 'config'): array
     {
-        array_walk($data, function ($item, $key) use ($array) {
-            if(!\array_key_exists($key, $array)) {
-                $array[$key] = [];
+        $isRoot = false;
+        if(is_string($container)) {
+            $isRoot = true;
+            $container = $this->config;
+        }
+
+        foreach ($data as $key => $item) {
+            if(!\array_key_exists($key, $container)) {
+                $container[$key] = [];
             }
             if(\is_array($item)) {
-                $array[$key] = \array_merge($array[$key], $this->resolveData($item, $array));
-            } else {
-                $array[$key] = $item;
+                $item = \array_merge($container[$key], $this->resolveData($item, $container[$key]));
             }
-        });
-        return $array;
+            $container[$key] = $item;
+        }
+        if($isRoot) {
+            $this->config = $container;
+        }
+        return $container;
     }
 }
