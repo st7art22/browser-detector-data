@@ -17,3 +17,12 @@
         + ArchiveOrg
         + Artmixx
         + betaBot
+        + BLEXBot
+        + Botify
+        + BPImageWalker
+        + BrokenLinkCheck
+        + CareerBot
+        + Catchpoint
+        + Cesar Job Such Maschine
+        + Clickagy Intelligence Bot
+        + Cliqz

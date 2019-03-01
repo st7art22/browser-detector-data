@@ -1,0 +1,80 @@
+########################################################################
+# @author Serhii Nekhaienko <sergey.nekhaenko@gmail.com>
+# @license GPL
+# @copyright Serhii Nekhaienko &copy 2018-2019
+# @version 1.0.1
+# @project endorphin-studio/browser-detector-data
+########################################################################
+robot:
+    types:
+        Bot/Crawler:
+            WASALive:
+                WASALive Bot: "WASALive-Bot"
+            Microsoft Corp.:
+                .NET Framework CLR: "MS Web Services"
+                Adidxbot: "adidxbot"
+            007AC9.net:
+                007ac9 Crawler: "007ac9 Crawler"
+            80legs.com:
+                80legs Crawler: "80legs.com"
+            123metaspider.com:
+                123metaspider Crawler: "123metaspider"
+            1470.net:
+                1470 Crawler: "1470.net"
+            not available:
+                Yisou Spider: "YisouSpider"
+                Yioop Bot: "YioopBot"
+                betaBot: "betaBot"
+            MJ12bot:
+                MJ12bot: "MJ12bot"
+            SiteLock:
+                SiteLock: "SiteLockSpider"
+            square:
+                OkHttp: "(okhttp|OkHttp)"
+            VeriSign Inc.:
+                IPS agent: "(ips-agent)"
+            WebMeUp:
+                BLEXBot: "BLEXBot"
+            ScoutJet:
+                ScoutJet: "ScoutJet"
+            SEOmoz Inc.:
+                DotBot: "(DotBot|dotbot)"
+            Grapeshot:
+                Grapeshot: "GrapeshotCrawler"
+            Seznam:
+                Seznam: "SeznamBot"
+            metauri:
+                MetaURI: "MetaURI"
+            paper:
+                PaperLiBot: "PaperLiBot"
+            Genieo:
+                Genieo: "Genieo"
+            Mirafox:
+                PR-CY-RU: "a.pr-cy.ru"
+            Clearspring Technologies:
+                AddThis: "AddThis.com"
+            ADmantX Inc.:
+                ADmantX: "ADmantX"
+            The Internet Archive:
+                ArchiveOrg: "archive.org_bot"
+            Artmixx:
+                Artmixx: "artmixx"
+            BrandProtect Inc.:
+                BDFetch: "BDFetch"
+                BPImageWalker: "BPImageWalker"
+            Web Me Up:
+                BLEX: "BLEXBot"
+            Botify:
+                Botify: "botify;"
+            Broken Link Check:
+                BrokenLinkCheck: "BrokenLinkCheck"
+            CareerBot:
+                CareerBot: "CareerBot"
+            Catchpoint:
+                Catchpoint: "Catchpoint"
+            Cesar:
+                Cesar Job Such Maschine: "Cesar Jobsuchmaschine"
+            Clickagy:
+                Clickagy Intelligence Bot: "Clickagy Intelligence Bot"
+            Cliqz:
+                Cliqz: "(Cliqz|Cliqzbot)"

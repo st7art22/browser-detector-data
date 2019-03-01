@@ -1,0 +1,20 @@
+########################################################################
+# @author Serhii Nekhaienko <sergey.nekhaenko@gmail.com>
+# @license GPL
+# @copyright Serhii Nekhaienko &copy 2018-2019
+# @version 1.0.1
+# @project endorphin-studio/browser-detector-data
+########################################################################
+robot:
+    types:
+        Site Monitor:
+            Nodemeter:
+                Nodemeter: "Nodemeter"
+            Anturis Inc.:
+                Anturis Agent: "Anturis Agent"
+            Insping:
+                Insping Bot: "Inspingbot"
+            Nazaries Information Technologies:
+                Port Monitor: "Port Monitor check service"
+            DownNotifier.com:
+                DownNotifier.com: "downnotifier.com"

@@ -1,0 +1,53 @@
+########################################################################
+# @author Serhii Nekhaienko <sergey.nekhaenko@gmail.com>
+# @license GPL
+# @copyright Serhii Nekhaienko &copy 2018-2019
+# @version 1.0.1
+# @project endorphin-studio/browser-detector-data
+########################################################################
+robot:
+    types:
+        Search Engine:
+            Google Inc.:
+                Google (News): "Googlebot-News"
+                Google (Images): "Goodlebot-Images"
+                Google (Videos): "Goodlebot-Videos"
+                Google (AdSense): "Goodlebot-AdSense"
+                Google (Smartphone): "Goodlebot-Smartphone"
+                Google (Mobile): "Goodlebot-Mobile"
+                Google (Search): "Goodlebot-Main"
+                Google (Mediapartners): "Mediapartners-Google"
+                Google Bot: "Googlebot"
+            Yandex LLC.:
+                Yandex (Mobile): "compatible\\; (YandexBot|YandexMobileBot)"
+                Yandex (Accessibility): "YandexAccessibilityBot"
+                Yandex (Direct): "(YandexDirectDyn|YandexDirect|YaDirectFetcher)"
+                Yandex (Screenshot): "YandexScreenshotBot"
+                Yandex (Images): "YandexImages"
+                Yandex (Video): "YandexVideo"
+                Yandex (Media): "YandexMedia"
+                Yandex (Blogs): "YandexBlogs"
+                Yandex (Pagechecker): "YandexPagechecker"
+                Yandex (ImageResizer): "YandexImageResizer"
+                Yandex (Ad): "YandexAdNet"
+                Yandex (Calendar): "YandexCalendar"
+                Yandex (Sitelinks): "YandexSitelinks"
+                Yandex (Favicons): "YandexFavicons"
+                Yandex (Metrika): "YandexMetrika"
+                Yandex (News): "(YandexNews|YandexNewslinks)"
+                Yandex (Catalog): "YandexCatalog"
+                Yandex (Antivirus): "YandexAntivirus"
+                Yandex (Market): "YandexMarket"
+                Yandex (Vertis): "YandexVertis"
+                Yandex (Mail): "YandexForDomain"
+                Yandex (Sprav): "YandexSpravBot"
+                Yandex (Webmaster): "YandexWebmaster"
+                Yandex: "YandexBot"
+            Microsoft Corp.:
+                Bing: "(bingbot|msnbot|BingPreview)"
+            NetEase:
+                Yodao: "YodaoBot"
+            Baidu:
+                Baidu: "(baidu|Baidu)"
+            Yahoo:
+                 Yahoo! Slurp: "Yahoo! Slurp"
