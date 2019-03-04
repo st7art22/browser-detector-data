@@ -4,6 +4,7 @@
     
 ### 1.0.1
     - add bad_robots.yml
+    - add data files caching
     - add robots detection:
         + Grapeshot
         + Seznam
@@ -26,3 +27,12 @@
         + Cesar Job Such Maschine
         + Clickagy Intelligence Bot
         + Cliqz
+        + Cloud mapping
+        + Cloudinary
+        + CloudServerMarketSpider
+        + CMS Crawler
+        + CoinCornerBot
+        + CommaFeed
+        + contentDetection
+        + ConveraCrawler
+        + CorpusCrawler

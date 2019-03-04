@@ -78,3 +78,21 @@ robot:
                 Clickagy Intelligence Bot: "Clickagy Intelligence Bot"
             Cliqz:
                 Cliqz: "(Cliqz|Cliqzbot)"
+            PDR Labs:
+                Cloud mapping: "Cloud mapping"
+            Cloudinary Ltd:
+                Cloudinary: "Cloudinary"
+            Cloud Server Market:
+                CloudServerMarketSpider: "CloudServerMarketSpider"
+            Viderem AB:
+                CMS Crawler: "CMS Crawler"
+            Coin Corner Ltd:
+                CoinCornerBot: "CoinCornerBot"
+            Comma Feed:
+                CommaFeed: "CommaFeed"
+            Intelligence GmbH:
+                contentDetection: "contentDetection"
+            Convera Corporation:
+                ConveraCrawler: "ConveraCrawler"
+            NLP:
+                CorpusCrawler: "CorpusCrawler"
