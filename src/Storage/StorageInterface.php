@@ -27,4 +27,30 @@ interface StorageInterface
      * @return array array of data
      */
     public function getConfig(): array;
+
+    /**
+     * Return true if cache enabled
+     * @return bool return true if cache enabled
+     */
+    public function isCacheEnabled(): bool;
+
+    /**
+     * Set cache enabled flag
+     * @param bool $flag true or false
+     * @return void
+     */
+    public function setCacheEnabled(bool $flag);
+
+    /**
+     * Return path to cache directory
+     * @return string Path to cache directory
+     */
+    public function getCacheDir(): string;
+
+    /**
+     * Set cache dir path
+     * @param string $path Path to cache dir
+     * @return void
+     */
+    public function setCacheDir(string $path);
 }

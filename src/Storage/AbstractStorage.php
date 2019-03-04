@@ -29,6 +29,16 @@ abstract class AbstractStorage implements StorageInterface
     protected $dataDirectory;
 
     /**
+     * @var bool isCacheEnabled
+     */
+    private $cacheEnabled;
+
+    /**
+     * @var string Path to cacheDirectory
+     */
+    protected $cacheDirectory;
+
+    /**
      * Set data directory
      * @param string $directory
      * @throws StorageException
@@ -50,4 +60,51 @@ abstract class AbstractStorage implements StorageInterface
      * @return array Data
      */
     public abstract function getConfig(): array;
+
+    /**
+     * Return true if cache enabled
+     * @return bool return true if cache enabled
+     */
+    public function isCacheEnabled(): bool
+    {
+        return $this->cacheEnabled;
+    }
+
+    /**
+     * Set cache enabled flag
+     * @param bool $flag true or false
+     * @return void
+     */
+    public function setCacheEnabled(bool $flag)
+    {
+        $this->cacheEnabled = $flag;
+    }
+
+    /**
+     * Return path to cache directory
+     * @return string Path to cache directory
+     */
+    public function getCacheDir(): string
+    {
+        return $this->cacheDirectory;
+    }
+
+    /**
+    /**
+     * Set cache dir path
+     * @param string $path Path to cache dir
+     * @throws StorageException
+     * @return void
+     */
+    public function setCacheDir(string $path)
+    {
+        if (!is_dir($path)) {
+            $exception = new StorageException(sprintf(StorageException::DIRECTORY_NOT_FOUND, $path));
+            $exception->setDirectory($exception);
+            $exception->setProvider(static::class);
+            throw $exception;
+        }
+
+        $this->dataDirectory = $path;
+    }
 }

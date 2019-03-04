@@ -26,6 +26,12 @@ class YamlStorage extends FileStorage implements StorageInterface
      */
     public function getConfig(): array
     {
+        $useCache = $this->isCacheEnabled();
+
+        if($useCache && $this->checkCache()) {
+            return $this->getFromCache();
+        }
+
         if (empty($this->config)) {
             $yamlParser = new Parser();
             $files = $this->getFileNames();
@@ -34,6 +40,11 @@ class YamlStorage extends FileStorage implements StorageInterface
                 $this->config = \array_merge_recursive($this->config, $yamlParser->parseFile($file));
             }
         }
+
+        if($useCache && !$this->checkCache()) {
+            $this->saveCache($this->config);
+        }
+
         return $this->config;
     }
 }
