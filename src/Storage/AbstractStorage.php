@@ -84,7 +84,7 @@ abstract class AbstractStorage implements StorageInterface
      * Return path to cache directory
      * @return string Path to cache directory
      */
-    public function getCacheDir(): string
+    public function getCacheDirectory(): string
     {
         return $this->cacheDirectory;
     }
@@ -96,7 +96,7 @@ abstract class AbstractStorage implements StorageInterface
      * @throws StorageException
      * @return void
      */
-    public function setCacheDir(string $path)
+    public function setCacheDirectory(string $path)
     {
         if (!is_dir($path)) {
             $exception = new StorageException(sprintf(StorageException::DIRECTORY_NOT_FOUND, $path));
@@ -105,6 +105,6 @@ abstract class AbstractStorage implements StorageInterface
             throw $exception;
         }
 
-        $this->dataDirectory = $path;
+        $this->cacheDirectory = $path;
     }
 }

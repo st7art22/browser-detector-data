@@ -45,12 +45,12 @@ interface StorageInterface
      * Return path to cache directory
      * @return string Path to cache directory
      */
-    public function getCacheDir(): string;
+    public function getCacheDirectory(): string;
 
     /**
      * Set cache dir path
      * @param string $path Path to cache dir
      * @return void
      */
-    public function setCacheDir(string $path);
+    public function setCacheDirectory(string $path);
 }
