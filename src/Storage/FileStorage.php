@@ -78,6 +78,7 @@ class FileStorage extends AbstractStorage implements StorageInterface
         $fileName = $this->getCacheFileName($directory);
         $file = new \SplFileObject($fileName, 'w+');
         $file->fwrite(serialize($content));
+        $this->saveCacheFileList();
     }
 
     protected function getFromCache(string $directory = 'default'): array
