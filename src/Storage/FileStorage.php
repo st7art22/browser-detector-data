@@ -87,7 +87,7 @@ class FileStorage extends AbstractStorage implements StorageInterface
     protected function getFromCache(string $directory = 'default'): array
     {
         $fileName = $this->getCacheFileName($directory);
-        $file = new \SplFileObject($fileName, 'o');
+        $file = new \SplFileObject($fileName, 'r');
         $data = $file->fread($file->getSize());
         return unserialize($data);
     }
