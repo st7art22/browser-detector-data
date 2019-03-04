@@ -44,6 +44,9 @@ class FileStorage extends AbstractStorage implements StorageInterface
 
     private function getHashFromHashList(string $directory = 'default'): string
     {
+        if ($directory === 'default') {
+            $directory = $this->dataDirectory;
+        }
         $hashList = $this->getHashList();
         if (array_key_exists($directory, $hashList)) {
             return $hashList[$directory];
