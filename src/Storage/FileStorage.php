@@ -134,11 +134,11 @@ class FileStorage extends AbstractStorage implements StorageInterface
 
     private function getCacheListFileName(): string
     {
-        return sprintf('%s/cache.bin', $this->getCacheDir());
+        return sprintf('%s/cache.bin', $this->getCacheDirectory());
     }
 
     private function getCacheFileName(string $directory): string
     {
-        return sprintf('%s/%s.bin', $this->getCacheDir(), $this->getCacheHash($directory));
+        return sprintf('%s/%s.bin', $this->getCacheDirectory(), $this->getCacheHash($directory));
     }
 }
