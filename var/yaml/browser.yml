@@ -111,9 +111,6 @@ browser:
         Netscape Navigator:
             pattern: "Netscape"
             version: "Netscape"
-        Atomic:
-            pattern: "AtomicBrowser"
-            version: "AtomicBrowser"
         Midori:
             default: true
         Conkeror:
@@ -134,11 +131,6 @@ browser:
         Internet Explorer:
             pattern: "MSIE"
             version: "MSIE"
-        Columbus:
-            default: true
-        Yandex Browser:
-            pattern: "YaBrowser"
-            version: "YaBrowser"
         Firefox:
             default: true
         Safari:
